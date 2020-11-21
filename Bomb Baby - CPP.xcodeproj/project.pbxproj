@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0714DB0025699690007B4068 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0714DAFF25699690007B4068 /* main.cpp */; };
+		0714DB0A2569A589007B4068 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0714DB082569A589007B4068 /* Node.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,8 @@
 		0714DAFC25699690007B4068 /* Bomb Baby - CPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bomb Baby - CPP"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0714DAFF25699690007B4068 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0714DB0725699708007B4068 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0714DB082569A589007B4068 /* Node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		0714DB092569A589007B4068 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				0714DAFF25699690007B4068 /* main.cpp */,
+				0714DB082569A589007B4068 /* Node.cpp */,
+				0714DB092569A589007B4068 /* Node.hpp */,
 				0714DB0725699708007B4068 /* README.md */,
 			);
 			path = "Bomb Baby - CPP";
@@ -121,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0714DB0025699690007B4068 /* main.cpp in Sources */,
+				0714DB0A2569A589007B4068 /* Node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
