@@ -4,7 +4,7 @@ Bomb Baby
 This problem was presented to me through the Google FooBar challenge.  Though the directions specify a Java or Python solution, this program was written in C++ to illustrate competency in that language.
 
 This program was compiled on MacOS Catalina 10.15.7 with GCC using the command:
-g++ main.cpp -o main.exe
+g++ main.cpp Node.cpp -o main.exe
 
 You're so close to destroying the LAMBCHOP doomsday device you can taste it! But in order to do so, you need to deploy special self-replicating bombs designed for you by the brightest scientists on Bunny Planet. There are two types: Mach bombs (M) and Facula bombs (F). The bombs, once released into the LAMBCHOP's inner workings, will automatically deploy to all the strategic points you've identified and destroy them at the same time.
 
