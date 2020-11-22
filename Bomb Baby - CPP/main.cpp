@@ -26,10 +26,10 @@ int main(int argc, const char * argv[]) {
             std::string arg;
             // Get X from the first argument
             arg = argv[1];
-            X = std::stoi(arg);
+            X = std::stol(arg);
             // Get Y from the second argument
             arg = argv[2];
-            Y = std::stoi(arg);
+            Y = std::stol(arg);
         }
         catch (std::invalid_argument)
         {
