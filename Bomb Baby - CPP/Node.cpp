@@ -9,7 +9,7 @@
 #include "Node.hpp"
 
 // CONSTRUCTOR
-Node::Node(int x, int y)
+Node::Node(long x, long y)
 {
     // Initialize the class with the specified parameters and calculate the current dividend
     X = x;

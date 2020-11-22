@@ -8,15 +8,10 @@
 #include "Node.hpp"
 #include <iostream>
 
-// Function Prototypes
-int GCD(int, int);
-int Dividend(int, int);
-int ConditionedSubtraction(int * [2]);
-
 int main(int argc, const char * argv[]) {
     // Positions of the desired goal
-    int X;
-    int Y;
+    long X;
+    long Y;
     // The user may specify X and Y values through command line arguments
     if (argc > 1)
     {
@@ -61,17 +56,4 @@ int main(int argc, const char * argv[]) {
         std::cout << Goal.GetOperationCount() << std::endl;
     }
     return 0;
-}
-
-int GCD(int x, int y)
-{
-    // Returns the greatest common divisor of two numbers
-    if (y != 0)
-    {
-        return GCD(y, x % y);
-    }
-    else
-    {
-        return x;
-    }
 }

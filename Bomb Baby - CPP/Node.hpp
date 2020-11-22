@@ -14,13 +14,13 @@
 class Node
 {
 private:
-    int X;
-    int Y;
-    int Dividend;
-    int OperationCount;
+    long X;
+    long Y;
+    long Dividend;
+    long OperationCount;
 public:
     // CONSTRUCTORS
-    Node(int, int);
+    Node(long, long);
     // MUTATORS
     void CalculateDividend();
     void ConditionedSubtraction();
